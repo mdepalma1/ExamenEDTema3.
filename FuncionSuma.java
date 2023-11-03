@@ -20,7 +20,7 @@ public class FuncionSuma {
 		System.out.println("Introduce el segundo sumando:");
 		segundoSumando = in.nextInt();
 		in.nextLine();
-		System.out.println("La suma es: " + suma(primerSumando, segundoSumando));
+		System.out.println("La resta es: " + resta(primerSumando, segundoSumando));
 		
 		in.close();
 
@@ -28,7 +28,7 @@ public class FuncionSuma {
 	
 	
 	
-	private static int suma (int sumando1, int sumando2) {
+	private static int resta (int sumando1, int sumando2) {
 		return sumando1-sumando2;
 	}
 
